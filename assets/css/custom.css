@@ -1,0 +1,43 @@
+/* Add here all your CSS customizations */
+
+
+.custom-thumb-info-1:hover .thumb-info-wrapper .thumb-info-title {
+    opacity: 1;
+    width: 30%;
+}
+.custom-thumb-info-1 .thumb-info-wrapper .thumb-info-title {
+    opacity: 0;
+    position: absolute;
+    width: 10%;
+    top: 80%;
+    left: 50%;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: ease all 0.3s;
+    -moz-transition: ease all 0.3s;
+    transition: ease all 0.3s;
+    width: 100% !important;
+    height: 60px !important;
+}
+.thumb-info .thumb-info-title {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    background: rgba(23, 23, 23, 0.8);
+    bottom: 10%;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 9px 11px 9px;
+    position: absolute;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    z-index: 2;
+    max-width: 90%;
+}
